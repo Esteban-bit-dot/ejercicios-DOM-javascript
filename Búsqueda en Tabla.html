@@ -1,0 +1,28 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Búsqueda en Tabla</title>
+    <link rel="stylesheet" href="Style3.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Búsqueda en Tabla</h1>
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Buscar término" required>
+            <button type="button" onclick="searchTable()">Buscar</button>
+        </form>
+        <table id="data-table">
+            <tr><th>Termino</th></tr>
+            <tr><td>Seguridad</td></tr>
+            <tr><td>Riesgo</td></tr>
+            <tr><td>Prevención</td></tr>
+            <tr><td>Protección</td></tr>
+            <tr><td>Evaluación</td></tr>
+            <tr><td>Seguridad</td></tr>
+        </table>
+        <div id="result-container"></div>
+    </div>
+    <script src="Script3.js"></script>
+</body>
+</html>
